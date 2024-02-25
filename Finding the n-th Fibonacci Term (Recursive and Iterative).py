@@ -8,7 +8,15 @@ def fib(n):
 
 for i in range(11):
     print(fib(i), end = " ")
-    
+
+# -> It is inefficient because the high-burden function call operation must be repeated several times.
+# -> Algorithms always have to think about whether they are efficient or not.
+
+# How to improve the inefficiency of the above algorithm?
+# -> Make sure you don't count the same values recursively
+# -> Values in Fibonacci terms that have not yet been calculated need to be calculated
+# -> Store values of Fibonacci terms already calculated in the list
+# -> Fibonacci terms that have already been calculated and stored can be taken out and used when needed.    
 
 # Finding the n-th Fibonacci Term (Iterative)
 #def fib2(n):
