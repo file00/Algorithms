@@ -18,3 +18,5 @@ int main() {
     return 0;
 }
 
+// precision(n): Make sure to print only n digits of the real number. 
+// fixed: After using fixed as a fixed-point notation, the number of digits below the decimal point is output as much as the n value received from cout.precision(n).
