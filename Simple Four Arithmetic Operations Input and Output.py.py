@@ -9,4 +9,6 @@ print(a + b)
 print(a - b)
 print(a * b)
 print(a / b)
+
+print(int(a/b)) # Outputs in integer form.
 print(a % b)
