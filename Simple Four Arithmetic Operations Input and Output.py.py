@@ -1,4 +1,4 @@
-# Simple four arithmetic operations Input/Output
+# Simple Four Arithmetic Operations Input and Output
 
 a, b = input().split()
 
