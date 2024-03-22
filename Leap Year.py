@@ -1,4 +1,4 @@
-# leap Year
+# Leap Year
 
 i = int(input())
 
