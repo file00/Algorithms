@@ -1,4 +1,4 @@
-# Circular Queue implementation in Python
+# Circular Queue Implementation in Python
 
 class MyCircularQueue():
 
