@@ -45,7 +45,6 @@ class Queue():
                 print(self.queue[i], end=" ")
             print()
 
-
 # Your Queue object will be instantiated and called as such:
 obj = Queue(5)
 obj.enqueue(1)
@@ -58,4 +57,5 @@ obj.printQueue()
 
 obj.dequeue()
 print("After removing an element from the queue")
+
 obj.printQueue()
