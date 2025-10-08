@@ -18,7 +18,6 @@ def heapify(arr, n, i):
         arr[i], arr[largest] = arr[largest], arr[i]
         heapify(arr, n, largest)
 
-
 # Function to insert an element into the tree
 def insert(array, newNum):
     size = len(array)
@@ -29,7 +28,6 @@ def insert(array, newNum):
         for i in range((size // 2) - 1, -1, -1):
             heapify(array, size, i)
 
-
 # Function to delete an element from the tree
 def deleteNode(array, num):
     size = len(array)
@@ -37,7 +35,7 @@ def deleteNode(array, num):
     for i in range(0, size):
         if num == array[i]:
             break
-
+            
     # Swap the element to delete with the last element
     array[i], array[size - 1] = array[size - 1], array[i]
 
@@ -47,7 +45,6 @@ def deleteNode(array, num):
     # Rebuild the heap
     for i in range((len(array) // 2) - 1, -1, -1):
         heapify(array, len(array), i)
-
 
 arr = []
 
@@ -60,4 +57,5 @@ insert(arr, 2)
 print("Max-Heap array: " + str(arr))
 
 deleteNode(arr, 4)
+
 print("After deleting an element: " + str(arr))
