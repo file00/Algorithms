@@ -22,7 +22,6 @@ class Deque:
     def size(self):
         return len(self.items)
 
-
 d = Deque()
 print(d.isEmpty())
 d.addRear(8)
@@ -36,4 +35,5 @@ print(d.removeRear())
 print(d.removeFront())
 d.addFront(55)
 d.addRear(45)
+
 print(d.items)
