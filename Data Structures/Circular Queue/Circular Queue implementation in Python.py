@@ -1,6 +1,5 @@
 # Circular Queue implementation in Python
 
-
 class MyCircularQueue():
 
     def __init__(self, k):
@@ -51,7 +50,6 @@ class MyCircularQueue():
             for i in range(0, self.tail + 1):
                 print(self.queue[i], end=" ")
             print()
-
 
 # Your MyCircularQueue object will be instantiated and called as such:
 obj = MyCircularQueue(5)
