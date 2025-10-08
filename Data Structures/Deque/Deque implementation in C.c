@@ -1,7 +1,6 @@
 // Deque implementation in C
 
 #include <stdio.h>
-
 #define MAX 10
 
 void addFront(int *, int, int *, int *);
