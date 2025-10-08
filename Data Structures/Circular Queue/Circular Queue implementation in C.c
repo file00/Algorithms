@@ -1,7 +1,6 @@
 // Circular Queue implementation in C
 
 #include <stdio.h>
-
 #define SIZE 5
 
 int items[SIZE];
@@ -43,6 +42,7 @@ int deQueue() {
       front = -1;
       rear = -1;
     } 
+      
     // Q has only one element, so we reset the 
     // queue after dequeing it. ?
     else {
