@@ -2,7 +2,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
 #define MAX 10
 
 int count = 0;
@@ -84,4 +83,5 @@ int main() {
 
   printf("\nAfter popping out\n");
   printStack(s);
+
 }
