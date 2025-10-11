@@ -83,5 +83,4 @@ int main() {
 
   printf("\nAfter popping out\n");
   printStack(s);
-
 }
