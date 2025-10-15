@@ -13,7 +13,6 @@ def checkPrime(n):
 
     return 1
 
-
 def getPrime(n):
     if n % 2 == 0:
         n = n + 1
@@ -23,11 +22,9 @@ def getPrime(n):
 
     return n
 
-
 def hashFunction(key):
     capacity = getPrime(10)
     return key % capacity
-
 
 def insertData(key, data):
     index = hashFunction(key)
@@ -41,7 +38,6 @@ def insertData(key, data):
     if not found:
         hashTable[index].append((key, data))  # Add new key-value pair if not found
 
-
 def removeData(key):
     index = hashFunction(key)
     # Remove the key-value pair from the list if it exists
@@ -49,8 +45,7 @@ def removeData(key):
         if kv[0] == key:
             del hashTable[index][i]
             break
-
-
+            
 # Test the hash table
 insertData(123, "apple")
 insertData(432, "mango")
