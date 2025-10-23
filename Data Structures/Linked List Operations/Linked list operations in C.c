@@ -97,7 +97,9 @@ void sortLinkedList(struct Node** head_ref) {
 
   if (head_ref == NULL) {
   return;
-  } else {
+  } 
+  
+  else {
   while (current != NULL) {
     // index points to the node next to current
     index = current->next;
@@ -143,7 +145,9 @@ int main() {
   int item_to_find = 3;
   if (searchNode(&head, item_to_find)) {
   printf("\n%d is found", item_to_find);
-  } else {
+  } 
+  
+  else {
   printf("\n%d is not found", item_to_find);
   }
 
