@@ -28,6 +28,7 @@ def hashFunction(key):
 
 def insertData(key, data):
     index = hashFunction(key)
+    
     # Check if the key already exists in the list to update it, otherwise append
     found = False
     for i, kv in enumerate(hashTable[index]):
@@ -40,6 +41,7 @@ def insertData(key, data):
 
 def removeData(key):
     index = hashFunction(key)
+    
     # Remove the key-value pair from the list if it exists
     for i, kv in enumerate(hashTable[index]):
         if kv[0] == key:
