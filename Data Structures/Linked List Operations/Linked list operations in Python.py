@@ -72,7 +72,6 @@ class LinkedList:
         next = temp.next.next
 
         temp.next = None
-
         temp.next = next
 
     # Search an element
@@ -97,6 +96,7 @@ class LinkedList:
             return
         else:
             while current is not None:
+                
                 # index points to the node next to current
                 index = current.next
 
@@ -142,3 +142,4 @@ if __name__ == '__main__':
     print("Sorted List: ")
 
     llist.printList()
+
