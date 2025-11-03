@@ -1,6 +1,7 @@
 # Linked list implementation in Python
 
 class Node:
+    
     # Creating a node
     def __init__(self, item):
         self.item = item
@@ -27,4 +28,5 @@ if __name__ == '__main__':
     # Print the linked list item
     while linked_list.head != None:
         print(linked_list.head.item, end=" ")
+
         linked_list.head = linked_list.head.next
