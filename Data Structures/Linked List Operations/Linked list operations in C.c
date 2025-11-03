@@ -65,6 +65,7 @@ void deleteNode(struct Node** head_ref, int key) {
   free(temp);
   return;
   }
+  
   // Find the key to be deleted
   while (temp != NULL && temp->data != key) {
   prev = temp;
