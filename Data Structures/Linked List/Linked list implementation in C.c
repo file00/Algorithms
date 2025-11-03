@@ -18,6 +18,7 @@ void printLinkedlist(struct node *p) {
 }
 
 int main() {
+  
   // Initialize nodes
   struct node *head;
   struct node *one = NULL;
