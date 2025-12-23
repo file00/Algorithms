@@ -1,5 +1,4 @@
 // Stack implementation in C
-
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX 10
@@ -67,6 +66,7 @@ void printStack(st *s) {
 
 // Driver code
 int main() {
+  
   int ch;
   st *s = (st *)malloc(sizeof(st));
 
@@ -83,4 +83,5 @@ int main() {
 
   printf("\nAfter popping out\n");
   printStack(s);
+  
 }
