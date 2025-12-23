@@ -1,7 +1,8 @@
 // Priority Queue implementation in C
-
 #include <stdio.h>
+
 int size = 0;
+
 void swap(int *a, int *b) {
   int temp = *b;
   *b = *a;
@@ -68,6 +69,7 @@ void printArray(int array[], int size) {
 
 // Driver code
 int main() {
+  
   int array[10];
 
   insert(array, 3);
