@@ -1,5 +1,4 @@
 # Linked list implementation in Python
-
 class Node:
     
     # Creating a node
