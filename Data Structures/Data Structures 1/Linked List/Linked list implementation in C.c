@@ -1,5 +1,4 @@
 // Linked list implementation in C
-
 #include <stdio.h>
 #include <stdlib.h>
 
