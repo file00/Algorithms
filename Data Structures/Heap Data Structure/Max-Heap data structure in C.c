@@ -1,4 +1,4 @@
-// Max-Heap data structure in C
+// [Title] Max-Heap data structure in C
 
 #include <stdio.h>
 
